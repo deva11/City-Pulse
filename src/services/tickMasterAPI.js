@@ -1,17 +1,3 @@
-// export async function searchEvents({ keyword, city }) {
-//   const params = new URLSearchParams({
-//     apikey: "YOUR_TICKETMASTER_API_KEY",
-//     keyword,
-//     city,
-//     size: 20,
-//   });
-
-//   const res = await fetch(`https://app.ticketmaster.com/discovery/v2/events.json?${params}`);
-//   if (!res.ok) throw new Error("Failed to fetch events");
-//   return (await res.json())._embedded?.events || [];
-// }
-
-
 // Minimal search using keyword + city:
 
 import { TM_API_KEY, TM_BASE_URL } from '../config/constants';
