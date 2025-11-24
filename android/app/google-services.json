@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "531010226263",
+    "firebase_url": "https://fireb-458ef.firebaseio.com",
+    "project_id": "fireb-458ef",
+    "storage_bucket": "fireb-458ef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531010226263:android:8ffb1fa46048784517fb12",
+        "android_client_info": {
+          "package_name": "com.citypulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR8F4_CPpdFEkuW7SeVDKfkf41lhko0N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531010226263:android:6b9bda51b8dfce95",
+        "android_client_info": {
+          "package_name": "com.fireb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR8F4_CPpdFEkuW7SeVDKfkf41lhko0N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
