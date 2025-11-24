@@ -1,0 +1,29 @@
+Starting debug
+CMD: [cmd, /c, node, -v]
+EXIT: 1
+OUTPUT:
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+----------------
+CMD: [cmd, /c, npm, -v]
+EXIT: 1
+OUTPUT:
+'npm' is not recognized as an internal or external command,
+operable program or batch file.
+
+----------------
+CMD: [cmd, /c, npx, --version]
+EXIT: 1
+OUTPUT:
+'npx' is not recognized as an internal or external command,
+operable program or batch file.
+
+----------------
+CMD: [cmd, /c, npx, @react-native-community/cli, config]
+EXIT: 1
+OUTPUT:
+'npx' is not recognized as an internal or external command,
+operable program or batch file.
+
+----------------
