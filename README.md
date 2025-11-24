@@ -114,3 +114,17 @@ To learn more about React Native, take a look at the following resources:
   - Simple **Login & Sign Up** (mock auth)
   - User data stored in AsyncStorage
   - **Biometric login** 
+
+
+
+## Project Structure
+
+See `src/` folder:
+
+- `bridge/` – shared **business logic & hooks**  
+  - `useAuth`, `useEvents`, `useFavorites`, `useLanguage`
+- `screens/` – screen components (Splash, Home, EventDetails, Profile, Login, Signup)
+- `components/` – reusable UI components (EventCard, FavoriteButton, LanguageToggle, MapPreview)
+- `services/` – API and storage integrations (Ticketmaster, AsyncStorage wrapper)
+- `config/` – configuration (API constants)
+- `i18n/` – simple translation dictionary
